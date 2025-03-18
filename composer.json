@@ -1,0 +1,23 @@
+{
+    "name": "lcarbajals/pdf-lcs",
+    "description": "Generar, añadir y comprimir PDFs",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Llaker Carbajal Saboya",
+            "email": "carbajal.saboya@gmail.com"
+        }
+    ],
+	"require": {
+        "setasign/fpdf": "1.8.*",
+        "setasign/fpdi": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "lcarbajals\\PDF_LCS\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
